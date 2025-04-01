@@ -17,7 +17,7 @@ const HomePage = () => {
         `https://api.edamam.com/api/recipes/v2/?app_id=${APP_ID}&app_key=${APP_KEY}&q=${searchQuery}&type=public`
       );
       const data = await res.json();
-      console.log(data.hits);
+      // console.log(data.hits);
       setRecipes(data.hits);
     } catch (error) {
       console.log(error.message);
