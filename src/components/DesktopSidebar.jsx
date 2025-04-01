@@ -5,8 +5,8 @@ const DesktopSidebar = () => {
       <div className="p-3 md:p-10 border-r min-h-screen w-24 md:w-64 hidden sm:block ">
         <div className="flex flex-col gap-20 sticky top-10 left-0 ">
           <div className="w-full">
-             <Link to = {"/"} className="flex gap-1" ><img src="/public/logo.png" alt="" className="hidden md:block" /> </Link>
-            <img src="/public/mobile-logo.svg" alt="" className="block md:hidden" />
+             <Link to = {"/"} className="flex gap-1" ><img src="/logo.png" alt="" className="hidden md:block" /> </Link>
+            <img src="/mobile-logo.svg" alt="" className="block md:hidden" />
           </div>
           <ul className="flex flex-col items-center md:items-start gap-8">
             <Link to = {"/"} className="flex gap-1">
